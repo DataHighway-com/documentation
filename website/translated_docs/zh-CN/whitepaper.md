@@ -89,12 +89,12 @@ If you have any questions, please join the <a href="https://discord.gg/KGTbv9Z" 
     </ul></li>
     <li><a href="#roadmap">Roadmap</a>
     <ul>
-    <li><a href="#january-2020">January 2020</a></li>
-    <li><a href="#february-2020">February 2020</a></li>
-    <li><a href="#march-2020">March 2020</a></li>
-    <li><a href="#april-2020">April 2020</a></li>
-    <li><a href="#june-2020">June 2020</a></li>
-    <li><a href="#july-2020">July 2020</a></li>
+    <li><a href="#january-2020">November 2020</a></li>
+    <li><a href="#february-2020">December 2020</a></li>
+    <li><a href="#march-2020">January 2021</a></li>
+    <li><a href="#april-2020">February 2021</a></li>
+    <li><a href="#june-2020">March 2021</a></li>
+    <li><a href="#july-2020">April 2021</a></li>
     </ul></li>
     <li><a href="#economic-configuration">Economic Configuration</a>
     <ul>
@@ -408,7 +408,7 @@ Other roaming hubs that choose to store their roaming policies and agreements on
 
 ### Fair Distribution & Decentralisation Model
 
-* No pre-mining (no DHX coins in circulation before announcement to achieve the concept of decentralisation)
+* No DHX coins in circulation before announcement to achieve the concept of decentralisation
 * No ICO
 
 <div class="image-wrapper">
@@ -535,33 +535,33 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 ## Roadmap
 
-### January 2020
+### November 2020
 
 - DataHighway Initial Website Published
 - DataHighway Combined (Mining, Inter-Chain Data Market, and Roaming) Whitepaper Released (Open-Source)
 - DataHighway Roaming Preliminary Design Implementation Published on Github (Open-Source)
 
-### February 2020
-- DataHighway Testnet (Mining Only) on Substrate-based chain using PoA validators
+### December 2020
+- DataHighway  Mining Only on Substrate-based chain using PoA validators
 - DataHighway Roaming Draft Implementation Reviewed by Parity (Substrate Builders Program)
 - DataHighway Roaming Detailed Design Implementation Published on Github (Open-Source)
 
-### March 2020
+### January 2021
 - DataHighway Roaming Final Design (integration of Backend Interface 1.0 Specification)
 - DataHighway Testnet (Mining Only) on Substrate-based chain using NPoS collators
 - DataHighway Blockchain ported to Polkadot Parachain using Cumulus
 - DataHighway Parachain Slot Auction on Polkadot Testnet
 
-### April 2020
+### February 2021
 - Polkadot Mainnet Launch. See <a href="https://cdn.discordapp.com/attachments/664878094846525440/667004774062751770/unknown.png" target="_blank" class="pretty-link-colored">Extract from Discord Discussion</a>
 - Data Highway Mainnet (Mining Only) on Polkadot-compatible Parachain using Substrate's Cumulus Framework <a href="#reference-4330ba" class="pretty-link-colored">[4330ba]</a> or the Parachain Development Kit (PDK) with a Polkadot Parachain Slot <a href="#reference-3b726b" class="pretty-link-colored">[3b726b]</a>
 - Data Highway Testnet (Roaming + Mining) on Substrate-based chain using NPoS collators
 
-### June 2020
+### March 2021
 - DataHighway Mainnet Upgrade (Roaming + Mining)
 - DataHighway Testnet (Roaming + Mining + Inter-Chain Data Market) on Substrate-based chain using NPoS collators
 
-### July 2020
+### April 2021
 - DataHighway Mainnet Upgrade (Roaming + Mining + Inter-Chain Data Market)
 
 <div class="page-break"></div>
@@ -573,7 +573,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 The initial economic variables shown in the table below were decided upon through optioneering and may be configured:
 
 <div class="image-wrapper">
-    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-economic-variables.png">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/Whitepaper_Graphics-03.jpg">
 </div>
 
 <div class="figure-text">Table: DataHighway Economic Variables</div>
@@ -828,6 +828,12 @@ Other means of acquiring DHX tokens at through participating as follows:
 The DHX DAO allows for distributed community membership, governance, and funding.
 
 It shall be based upon Sunshine DAO <a href="#reference-effe0d" class="pretty-link-colored">[effe0d]</a>, which ProtoShine <a href="#reference-aa9e13" class="pretty-link-colored">[aa9e13]</a> is based upon.
+
+DAO will be organized in MXC DataDash App, and the council consistutes the DAO.
+
+The minimal requirement for creating a council is to have 5 million MXC and 5 secure hardware.
+
+Council chair will have 20% of the mining power from its members
 
 ### Treasury
 
@@ -1256,7 +1262,7 @@ Same as Token Asset Mining using "real mining power" equivalent in DHX
 ##### Example: PoP Hardware Assets Combo Mining for Voting Power
 
 * Assumptions:
-    * Date: June 2020
+    * Date: Jan 2021
     * Exchange Rate (Average Daily according to the price of DHX)
         * 1 USD <-> 1 DHX
         * 1 MXC <-> 1 DHX
@@ -1285,13 +1291,14 @@ Same as Token Asset Mining using "real mining power" equivalent in DHX
     * Calculate Hardware MSB (using Table 1.5)
         * 1x Supernode => 1.24 MSB
         * 1x Consensus Node => 1.15 MSB
-        * 3x Secure Gateways => 1.05 MSB
+        * 3x Secure Gateways => 2.00 MSB (1x Secure Gateway 2.00 MSB can boost 1 million MXC and equivalent assets.)
         * 20x Secure End Devices => 1.008 MSB
 
-        * Total MSB: 1.4 (total is 1.448 but max. is 1.4)
+        * Total MSB: 2.0 (total is 2.448 but max. is 2.0)
     * Check Sample Dates during their lock bonus period to determine whether they are eligible for any Voting Power and MSB. If they had at least 80% of their lock balance in the respective accounts on each of the "sampling" dates in a speed bonus period (at the start and a random date during the period), then the Hardware MSB will apply to the period
     * Calculate Overall Bonus (i.e. max capped at 1.2 for Voting Power/ICBAM, max capped at 1.4 for PoP)
     * Show how may use the earned DHX and how more likely to earn bonus than other users
+    * one secure gateway can boost up to 1 million MXC and equivalent asset.
 
 ### Development Mining (Runtimes & DApps as Collateral)
 
@@ -2098,7 +2105,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
                 // Hardware Security Mining Speed Boost
                 pub enum MiningSpeedBoostForHardwareSecurity {
-                    SecureHardware = 0.05, // MatchX
+                    SecureHardware = 1.00, // MatchX
                     InsecureHardware = 0.025
                 };
 
@@ -2581,11 +2588,10 @@ Note: Generate a new reference with `openssl rand -hex 2`
   * [8f85ec] <a id="reference-8f85ec"></a><a href="https://datahighway.com" target="_blank" class="pretty-link-colored">DataHighway.com</a>
 * DataHighway Runtime Modules (Palettes) [2961f6] <a id="reference-2961f6"></a>
 
-  * <a href="https://github.com/DataHighway-com/node/tree/master/packages/roaming" target="_blank" class="pretty-link-colored">Roaming</a>
+  * <a href="https://github.com/DataHighway-DHX/node/tree/master/pallets/roaming" target="_blank" class="pretty-link-colored">Roaming</a>
 * DAO
-  * [33d593] <a id="reference-33d593"></a><a href="https://web3.garden/" target="_blank" class="pretty-link-colored">Web3.Garden</a>
-  * [effe0d] <a id="reference-effe0d"></a><a href="https://github.com/web3garden/sunshine" target="_blank" class="pretty-link-colored">Web3.Garden SunshineDAO</a>
-  * [aa9e13] <a id="reference-aa9e13"></a><a href="https://github.com/web3garden/sunshine-runtime-module-library" target="_blank" class="pretty-link-colored">Web3.Garden ProtoShine</a>
+  * [effe0d] <a id="reference-effe0d"></a><a href="https://github.com/sunshine-protocol/sunshine" target="_blank" class="pretty-link-colored">Web3.Garden SunshineDAO</a>
+  * [aa9e13] <a id="reference-aa9e13"></a><a href="https://github.com/sunshine-protocol/sunshine" target="_blank" class="pretty-link-colored">Web3.Garden ProtoShine</a>
 * Finance
   * [3bbaf1] <a id="reference-3bbaf1"></a><a href="https://www.investopedia.com/terms/q/quantitative-easing.asp" target="_blank" class="pretty-link-colored">Quantitative Easing</a>
   * [89198f] <a id="reference-89198f"></a><a href="https://www.investopedia.com/ask/answers/100314/whats-difference-between-monetary-policy-and-fiscal-policy.asp" target="_blank" class="pretty-link-colored">Difference between Monetary Policy and Fiscal Policy</a>
@@ -2601,7 +2607,7 @@ Note: Generate a new reference with `openssl rand -hex 2`
   * [90b149] <a id="reference-90b149"></a><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038744/" target="_blank" class="pretty-link-colored">A Study of LoRa: Long Range & Low Power Networks for the Internet of Things</a>
   * [a90861] <a id="reference-a90861"></a><a href="https://www.loraserver.io/lora-app-server/overview/" target="_blank" class="pretty-link-colored">LoRa App Server Architecture</a>
 * Mining
-  * [b31f7c] <a id="reference-b31f7c"></a><a href="https://chainx.org/chainx_en.pdf" target="_blank" class="pretty-link-colored">ChainX Whitepaper</a>
+  * [b31f7c] <a id="reference-b31f7c"></a><a href="https://chainx.org/static/ChainXWhitePaper-901b6b70f654c8f8824686a2277971c0.pdf" target="_blank" class="pretty-link-colored">ChainX Whitepaper</a>
 * Miscellaneous
   * [1d41a4] <a id="reference-1d41a4"></a><a href="http://mockbin.org" target="_blank" class="pretty-link-colored">Mockbin</a>
   * [92e7f1] <a id="reference-92e7f1"></a><a href="https://requestloggerbin.herokuapp.com" target="_blank" class="pretty-link-colored">Request Logger Bin</a>
@@ -2638,15 +2644,15 @@ Note: Generate a new reference with `openssl rand -hex 2`
   * [3b726b] <a id="reference-3b726b"></a><a href="https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699" target="_blank" class="pretty-link-colored">Polkadot Parachain Slot</a>
   * [4330ba] <a id="reference-4330ba"></a><a href="https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/" target="_blank" class="pretty-link-colored">Cumulus Framework</a>
   * [038640] <a id="reference-038640"></a><a href="https://github.com/paritytech/polkadot/blob/a169ae5a449814e2c34223c1b504c3f947c74b67/runtime/common/src/crowdfund.rs#L16" target="_blank" class="pretty-link-colored">Polkadot Crowdfunding for Parachain Slots</a>
-  * [49f7f0] <a id="reference-49f7f0"></a><a href="https://github.com/paritytech/substrate/blob/master/srml/balances/src/lib.rs" target="_blank" class="pretty-link-colored">Substrate Balances Runtime Module</a>
-  * [411c31] <a id="reference-411c31"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#npos-payments-and-inflation" target="_blank" class="pretty-link-colored">Polkadot Token Economics NPoS Payments and Inflation</a>
+  * [49f7f0] <a id="reference-49f7f0"></a><a href="https://github.com/paritytech/substrate/blob/master/frame/balances/src/lib.rs" target="_blank" class="pretty-link-colored">Substrate Balances Runtime Module</a>
+  * [411c31] <a id="reference-411c31"></a><a href="https://web.archive.org/web/20210110164755/https://research.web3.foundation/en/latest/polkadot/economics/1-token-economics.html#npos-payments-and-inflation" target="_blank" class="pretty-link-colored">Polkadot Token Economics NPoS Payments and Inflation</a>
   * [b05a57] <a id="reference-b05a57"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#relay-chain-transaction-fees" target="_blank" class="pretty-link-colored">Polkadot Token Economics Relay Chain Transaction Fees</a>
-  * [46767b] <a id="reference-46767b"></a><a href="http://research.web3.foundation/en/latest/polkadot/Token%20Economics/#inflation-model" target="_blank" class="pretty-link-colored">Polkadot Token Economics Inflation Model</a>
+  * [46767b] <a id="reference-46767b"></a><a href="http://web.archive.org/web/20210119154527/https://w3f-research.readthedocs.io/en/latest/polkadot/economics/1-token-economics.html" target="_blank" class="pretty-link-colored">Polkadot Token Economics Inflation Model</a>
   * [d38e97] <a id="reference-d38e97"></a><a href="https://telemetry.polkadot.io" target="_blank" class="pretty-link-colored">Polkadot Telemetry Service</a>
   * [57f381] <a id="reference-57f381"></a><a href="https://polkascan.io" target="_blank" class="pretty-link-colored">Polkascan</a>
   * [2c6aa0] <a id="reference-2c6aa0"></a><a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">Smart Contract Platforms Blogpost</a>
   * [c18c08] <a id="reference-c18c08"></a><a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">On the Origin of Polkadot</a>
 * Roaming
-  * [4948eb] <a id="reference-4948eb"></a><a href="http___www.aphref.aph.gov.au_house_committee_coms_mobileroaming_report_chapter2.pdf" target="_blank" class="pretty-link-colored">Roaming Report, Page 12</a>
+  * [4948eb] <a id="reference-4948eb"></a><a href="http://web.archive.org/web/20190627191707/https://www.aph.gov.au/parliamentary_business/committees/house_of_representatives_committees?url=coms/mobileroaming/report/chapter2.htm" target="_blank" class="pretty-link-colored">Roaming Report, Page 12</a>
   * [6fe50e] <a id="reference-6fe50e"></a><a href="https://drive.google.com/file/d/17vyq7nVhb_fQ0a4opLI4TEKDK5laUqqq/view?usp=sharing" target="_blank" class="pretty-link-colored">MXC Roaming Presentation by Aslan on 6th August 2019 including Activation Passive Roaming</a>
 
